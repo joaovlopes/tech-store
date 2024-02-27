@@ -41,7 +41,6 @@ const CartProvider = ({children}: {children: ReactNode}) => {
                             quantity: cartProduct.quantity + product.quantity,
                         }
                     }
-
                     return cartProduct;
                 })
             )
